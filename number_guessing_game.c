@@ -5,7 +5,7 @@ int main()
 {
     srand(time(0));
     int n, guess;
-    guess=rand()%100 + 1;
+    n=rand()%100 + 1;
 
     printf("welcome to the Guess the Number game!\n");
     printf("I have chosen a number between 1 and 100.\n");
@@ -30,4 +30,5 @@ int main()
     } 
     while (guess != n);
     return 0;
+
 }
