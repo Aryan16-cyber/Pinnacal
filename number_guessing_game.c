@@ -3,8 +3,8 @@
 #include <time.h>
 int main()
 {
-    srand(time(0));
     int n, guess;
+    srand(time(0));
     n=rand()%100 + 1;
 
     printf("welcome to the Guess the Number game!\n");
@@ -32,3 +32,4 @@ int main()
     return 0;
 
 }
+
